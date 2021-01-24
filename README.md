@@ -1,8 +1,7 @@
-# python-beginner-1
-basic python learing
+# Hello World program in Python
 BC = 100
-BE = 100
-M = 100
+BE = 90
+M = 90
 
 if not (BC <100) and BE ==100 and M ==100:
     print("World prize")
@@ -39,4 +38,13 @@ elif M > 60:
 elif M > 50:
     print("M-B")
 else:
-    print("M-fail")  
+    print("M-fail")    
+    
+if BC ==100 or BE ==100 or M==100:
+    if BC >80 and BE >80 and M >80:
+        print("Accept")
+    else:
+        print("Reject")
+        
+        
+    
