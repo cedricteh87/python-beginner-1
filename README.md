@@ -31,3 +31,8 @@ while(i<10):
     print("Yolo"+str(i))
     i+=1
     
+#Math: f(x)=x+3,    Python: def f(x): return x+3
+def f(x):
+    return x+3
+    
+print( f(5))  
